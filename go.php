@@ -37,7 +37,7 @@ $staff->matching = array( // соответствие полей в битрик
 	'TITLE' => 10,
 	'ASSIGNED_BY_ID' => 3,
 	'ADDRESS' => array(5,8,13,'delemiter' => ', '),
-	'PHONE_OTHER' => 15, // хз чо за "Телефон (доп. поле)" не нашел такого, записываю пока сюда
+	'PHONE_OTHER' => 15,
 	'PHONE_MOBILE' => 14,
 	'EMAIL_WORK' => 16,
 	'STATUS_ID' => 4
@@ -55,7 +55,7 @@ $staff->matching = array(
 	'TITLE' => 10,
 	'ASSIGNED_BY_ID' => 3,
 	'ADDRESS' => array(5,8,13,'delemiter' => ', '),
-	'PHONE_OTHER' => 15, // хз чо за "Телефон (доп. поле)" не нашел такого, записываю пока сюда
+	'PHONE_OTHER' => 15, 
 	'PHONE_MOBILE' => 14,
 	'EMAIL_WORK' => 16,
 	'STATUS_ID' => 4
@@ -78,7 +78,7 @@ $staff->matching = array(
 	'TITLE' => 10,
 	'ASSIGNED_BY_ID' => 3,
 	'ADDRESS' => array(5,8,13,'delemiter' => ', '),
-	'PHONE_OTHER' => 15, // хз чо за "Телефон (доп. поле)" не нашел такого, записываю пока сюда
+	'PHONE_OTHER' => 15,
 	'PHONE_MOBILE' => 14,
 	'EMAIL_WORK' => 16,
 	'STATUS_ID' => 4
