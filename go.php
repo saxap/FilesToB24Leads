@@ -20,7 +20,7 @@ $staff = new FilesToB24Leads(false); // если передать тру, то �
 $staff->bitrix24_url = 'УРЛ.bitrix24.ru';
 $staff->bitrix24_login = 'ЛОГИН';
 $staff->bitrix24_password = 'ПАС';
-$staff->escape_first_string = true;
+$staff->escape_first_string = true; // пропустить первую строчку
 $staff->file_folder = 'files/';
 //$staff->ignore_hash = true; // не запоминать хэши файлов, отправка произойдет даже если файлы не изменились
 
@@ -28,7 +28,7 @@ $staff->file_folder = 'files/';
 
 /// ЦСВ
 $staff->file = 'files/csv.csv';
-$staff->csv_delemiter = '|';
+$staff->csv_delemiter = '|'; // разделитель строчек в цсв
 $staff->additional_request = array( // что будет добавляться к каждому лиду
 	'SOURCE_ID' => 'OTHER',
 	'COMMENTS' => 'Лид из файла: '.$staff->file
